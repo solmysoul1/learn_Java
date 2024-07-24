@@ -86,7 +86,20 @@ public static void main(String[] args)
 
 - 실수
     - float :  끝에 f 붙여야함
-    - double
+    - double 
+
+### 변수 명명 규칙
+
+- 규칙
+    - 변수 이름은 숫자로 시작할 수 없다.
+    - 공백이 들어갈 수 없다.
+
+- 관례 
+    - 소문자로 시작하는 camelCase
+
+
+
+ 
 
 
 
