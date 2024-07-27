@@ -54,3 +54,69 @@ variable = Expression1 ? Expression2 : Expression3
 ```
 
 - 1이 true 면 2 실행, false면 3실행
+
+# 조건문
+
+## if문
+
+```java
+if (condition) {
+    // 실행될 코드
+}
+```
+
+## else문
+
+```java
+if (condition) {
+    // 만족할 때 실행할 코드
+} else {
+    // 만족하는 조건이 없을 때 실행할 코드
+}
+```
+
+## else if
+
+- if 문이 계속되면 참인 조건을 찾았어도 계속 비교함
+- if 문이 중첩되면서 중복으로 조건을 비교하게 됨
+- elseif문을 사용하면 코드의 효율성을 높일 수 있다
+    - 앞선 if문의 조건이 거짓일 때 다른 조건을 검사한다.
+
+```java
+if (condition) {
+    // 참일 경우 실행되는 코드
+} else if (condition2) {
+    // 조건1이 거짓이고 조건2가 참일 때 실행되는 코드
+}
+```
+
+## if 문과 else if 문
+
+- 조건이 서로 영향을 주지 않고 각각 수행해야 하는 경우에는 if문 사용
+- if 문 다음에 실행할 명령어가 하나만 있는 경우에는 중괄호 생략 가능
+
+## switch문 
+
+```java
+switch (condition) {
+    case 1:
+        // 실행될 코드
+        break;
+    case 2:
+        // 실행될 코드
+        break;
+    default:
+        // 실행될 코드
+}
+```
+- break 가 없다면?
+    - 그 뒤 코드도 실행된다.
+
+## 삼항연산자
+
+> 단순히 참과 거짓에 따라서 특정 값을 구하는 경우 사용하기 적합하다.
+
+# 반복문
+
+
+
